@@ -17,5 +17,4 @@ class Cat
        @@all
    end
 
-binding.pry
 end
