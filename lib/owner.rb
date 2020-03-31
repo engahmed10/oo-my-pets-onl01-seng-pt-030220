@@ -51,6 +51,7 @@ class Owner
       cat.name == name
     end
     cat1.owner = self
+    binding.pry
   end
 
   def buy_dog
