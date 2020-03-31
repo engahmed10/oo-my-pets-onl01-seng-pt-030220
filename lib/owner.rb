@@ -41,14 +41,15 @@ class Owner
   end
 
   def dogs
-
+      
       Dog.all.select do |dog|
        dog.owner == self
       end
   end
 
   def buy_cat(name)
-    Cat.new(name,owner=nil)
+   #cats.owner
+    Cat.new(name,owner=0)
   end
 
 end
