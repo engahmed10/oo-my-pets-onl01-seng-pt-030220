@@ -30,7 +30,6 @@ class Owner
      @@count
   end
   def self.reset_all
-  #  @@all = 0
     @@count =0
   end
 
