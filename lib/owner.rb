@@ -50,7 +50,7 @@ class Owner
     cat=Cat.all.select do |cat|
       cat.name == name
     end
-    cat
+   cat
   #Cat.new(name,owner=nil)
   end
 
