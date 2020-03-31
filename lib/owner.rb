@@ -50,7 +50,7 @@ class Owner
     cat1=Cat.all.select do |cat|
       cat.name == name
     end
-    binding.pry
+  #  binding.pry
 
     cat1.owner = self
   end
