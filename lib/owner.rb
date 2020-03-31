@@ -47,7 +47,7 @@ class Owner
   end
 
   def buy_cat(name)
-    Cat.all.select do |cat|
+    cat=Cat.all.select do |cat|
       cat.name == name
     end
   #Cat.new(name,owner=nil)
