@@ -57,7 +57,7 @@ class Owner
       Cat.new(name,owner=nil)
     end
   #  binding.pry
-    #cat1.owner = 
+    #cat1.owner =
   end
 
   def buy_dog
