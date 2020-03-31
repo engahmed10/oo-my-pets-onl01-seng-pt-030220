@@ -41,15 +41,19 @@ class Owner
   end
 
   def dogs
-      Cat.new(name,owner=nil)
+      Dog.all.select do |dog|
+       dog.owner == self
+      end
   end
 
   def buy_cat(name)
-  #    Cat.new(name,owner= nil)
+
+      Cat.new(name,owner=nil)
+
   end
 
-  def buy_dog(name)
-    Dog.new(name,owner= nil)
+  def buy_dog
+      Dog.new(name,dogs)
   end
 
 end
