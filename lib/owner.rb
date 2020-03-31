@@ -47,11 +47,10 @@ class Owner
   end
 
   def buy_cat(name)
-    cat=Cat.all.select do |cat|
+    cat1=Cat.all.select do |cat|
       cat.name == name
     end
-   cat
-  #Cat.new(name,owner=nil)
+    cat1
   end
 
   def buy_dog
