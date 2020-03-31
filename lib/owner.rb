@@ -50,7 +50,7 @@ class Owner
   def buy_cat(name)
    #cats.owner
     Cat.new(name,cats)
-    
+
   end
 
 end
