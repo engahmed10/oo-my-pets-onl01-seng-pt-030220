@@ -50,7 +50,7 @@ class Owner
     cat1=Cat.all.select do |cat|
       cat.name == name
     end
-    cat1
+    cat1.owner = self
   end
 
   def buy_dog
