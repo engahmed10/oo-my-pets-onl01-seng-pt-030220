@@ -15,8 +15,7 @@ class Cat
 
    def self.all
        @@all
-       #binding.pry
    end
 
-
+binding.pry
 end
