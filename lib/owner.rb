@@ -41,7 +41,7 @@ class Owner
   end
 
   def dogs
-    
+
       Dog.all.select do |dog|
        dog.owner == self
       end
@@ -49,7 +49,6 @@ class Owner
 
   def buy_cat(name)
     Cat.new(name)
-     
   end
 
 end
